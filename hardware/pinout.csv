@@ -1,0 +1,13 @@
+ESP32 引脚,连接模块,说明
+GPIO4,DHT22 DATA,空气温湿度
+GPIO21,BH1750 SDA,I2C 数据
+GPIO22,BH1750 SCL,I2C 时钟
+GPIO34,土壤湿度 AO,模拟输入
+GPIO16,MH-Z19B TX,串口接收 CO2 数据
+GPIO17,MH-Z19B RX,串口发送 CO2 指令
+GPIO18,继电器 IN1,风机控制
+GPIO19,继电器 IN2,水泵控制
+GPIO23,继电器 IN3,补光灯控制
+GPIO13,舵机 PWM,通风窗/卷帘控制
+GND,所有模块 GND,共地
+3V3,低压传感器 VCC,传感器供电
